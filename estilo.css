@@ -1,0 +1,105 @@
+  /*
+    Css reset
+  */
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+
+  header{
+      margin-bottom: 20px;
+      font-size: 2em;
+      font-weight: bold;
+      color: #222;
+      font-family: "roboto", sans-serif;
+      text-align: center;
+      background-color: rgb(174, 220, 220);
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      right: 0%;
+  }
+
+
+  body{
+        text-align: center;
+        margin-top: 20px;
+        font-family: "roboto", sans-serif;
+        font-size: 20px;
+        color: #333;
+        background-color: rgb(149, 189, 189);
+  }
+
+  .calculadora{
+            position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Move 50% para trás */
+        /* Estilos da sua box */
+        width: 4%;
+        height: 260px;
+        background-color: #fff;
+        width: 400px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin: 0 auto;
+        font-size: 90%;
+        text-align: center;
+  }
+
+  input{
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+
+
+
+   footer {
+      position: absolute;
+      bottom: 0;
+      width: 98%;
+      margin: 0 auto;
+      text-align: center;
+      background-color: transparent rgb(91, 113, 106);
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      color: #080808;
+  }
+
+  footer a {
+      text-decoration: none;
+
+  }
+
+  footer a:hover {
+      text-decoration: underline;
+  }
+
+  button{
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  button:hover {
+      background-color: #45a049;
+  
+
+
+  }
