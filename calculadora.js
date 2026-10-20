@@ -1,4 +1,4 @@
-function calcularDesconto() {
+function calcularImc() {
 
 //Entrada de dados
 let pesocliente = document.getElementById("peso").value;
